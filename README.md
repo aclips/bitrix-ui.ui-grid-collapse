@@ -47,6 +47,10 @@ if($existParentId){
 </script>
 ```
 
-Результат
+- **default-collapse**: true|false - при загрузке разделы раскрыты или свёрнуты
+- **is-section-selector**: String - селектор признак раздела
+- **parent-attribute**: String - аттрибут идентификатор родительского элемента (раздела)
+
+### Результат
 
 ![Результат](https://github.com/aclips/bitrix-ui.ui-grid-collapse/blob/main/example.jpg)
