@@ -39,7 +39,7 @@ if($existParentId){
     BX.ready(function () {
             BX.Aclips.Plugin.UIGridCollapse.initCollapse('Идентификатор грида (GRID_ID)', {
                 'default-collapse': true,
-                'is-section-selector': '[is-head="true"]',
+                'is-section-selector': '[is-section="true"]',
                 'parent-attribute': 'parent'
             })
         }
